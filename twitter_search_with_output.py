@@ -18,14 +18,30 @@ from twitter import *
 import sys
 import csv
 
-latitude = 48.8566
-longitude = 2.3522
+latitude_paris = 48.8566
+longitude_paris = 2.3522
+
+latitude_london = 51
+longitude_london = 0
+
+longitude_newyork = 40.7
+latitude_newyork = 74
+
+longitude_tajikistan = 39
+latitude_tajikistan = 71
+
+longitude_bolivia =16
+latitude_bolivia =64
 
 #latitude = 51.474144    # geographical centre of search
 #longitude = -0.035401    # geographical centre of search
 max_range = 10             # search range in kilometres
 num_results = 100        # minimum results to obtain
 outfile = "output.csv"
+
+
+
+
 language_list = ["am", "hu", "pt", "ar", "is", "ro", "hy", "in", "ru", "bn", "it", "sr", "bg", "ja", "sd", "my", "kn", "si", "zh", "km", "sk", "cs", "ko", "sl", "da", "lo", "ckb", "nl", "lv", "es", "en", "lt", "et", "ml", "tl", "fi", "dv", "ta", "fr", "mr", "te", "ka", "ne", "th", "de", "no", "bo", "el", "or", "tr", "gu", "pa", "uk", "ht", "ps", "ur", "iw", "fa", "ug", "hi", "pl", "vi", "cy"]
 
 #-----------------------------------------------------------------------
